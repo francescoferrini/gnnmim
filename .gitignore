@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Experiment artefacts
+*.log
+*.out
+runs/
+wandb/
+checkpoints/
+results/
+
+# Data downloaded automatically (keep the .pt files we ship)
+data/Cora/
+data/Citeseer/
+data/PubMed/
