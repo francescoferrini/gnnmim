@@ -32,9 +32,11 @@ from torch_geometric.utils import (
     subgraph,
     k_hop_subgraph,
 )
-sys.path.append(
-    os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "baselines/graph-sum-product-networks"))
-)
+sys.path.append(os.path.join(os.path.dirname(__file__), "baselines", "graph-sum-product-networks"))
+
+
+
+
 
 from gensim.models import Word2Vec
 from tqdm import tqdm
