@@ -113,12 +113,13 @@ Missingness mechanisms to simulate, separated by spaces.
 If you use this code or the datasets in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{ferrini2026rethinking,
-  title     = {Rethinking {GNN}s and Missing Features: Challenges, Evaluation and a Robust Solution},
-  author    = {Ferrini, Francesco and Lachi, Veronica and Longa, Antonio and Lepri, Bruno and Matono, Akiyoshi and Passerini, Andrea and Liu, Xin and Jaeger, Manfred},
-  booktitle = {Proceedings of the 43rd International Conference on Machine Learning (ICML)},
-  year      = {2026},
-  url       = {https://openreview.net/forum?id=E4gftzjqoh}
+@inproceedings{
+ferrini2026rethinking,
+title={Rethinking {GNN}s and Missing Features: Challenges, Evaluation and a Robust Solution},
+author={Francesco Ferrini and Veronica Lachi and Antonio Longa and Bruno Lepri and Akiyoshi Matono and Andrea Passerini and Xin Liu and Manfred Jaeger},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=E4gftzjqoh}
 }
 ```
 
